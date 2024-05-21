@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+@font-face {
+    font-family: "Furore-2";
+    src: url(../fonts/Furore-2.otf);
+}
+
+@font-face {
+    font-family: "Pixies";
+    src: url(../fonts/Pixies.TTF);
+}
+
+
+body {
+    font-family: "Furore-2";
+    color: #E7E7E7;
+}
+
+
+
+
+
+.btn-check:focus + .btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+/*=====================================================================
+                            Flip part Start
+=======================================================================*/
+
+.switch-container {
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.switch-container img {
+    cursor: pointer;
+    width: 60px;
+    /* Adjust the size as needed */
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+#flip {
+    background: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#flip .header-container {
+    padding: 15px 20px 20px 50px;
+}
+
+#flip .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flip .header .left-btn {
+    width: 72px;
+    height: 58px;
+    display: flex;
+    align-items: end;
+}
+
+#flip .header .right-btn,
+#flip .main-btn {
+    width: 221px;
+    height: 58px;
+    display: flex;
+    align-items: end;
+}
+
+#flip .header .left-btn .btn {
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 0;
+}
+
+#flip .header .right-btn .btn,
+#flip .main-btn .btn {
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    position: relative;
+    padding: 0;
+}
+
+#flip .header .right-btn .btn p,
+#flip .main-btn .btn p {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0px 2px 0px #000;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#flip .first-main {
+    position: relative;
+}
+
+#flip .first-main .first-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 50px;
+    padding-bottom: 0;
+}
+
+#flip .first-main .first-content h3 {
+    font-family: "Stalinist One", sans-serif;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 45.62px;
+    letter-spacing: 0.04em;
+    color: #FF9900;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#flip .first-main .item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flip .first-main .item .left-item {
+    padding-left: 10px;
+}
+
+#flip .first-main .item .right-item {
+    padding-right: 10px;
+}
+
+#flip .first-main .item p {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#flip .first-main .item h6 {
+    color: #FF9900;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+#flip .first-main .item p span {
+    padding-left: 20px;
+}
+
+
+
+/*
+#imageButton {
+            border: none;
+            background: none;
+            padding: 0;
+            cursor: pointer;
+        }
+*/
+
+
+
+
+
+
+
+#flip .mian-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#flip .mian-content .left-part {
+    max-width: 450px;
+}
+
+#flip .mian-content .right-part {
+    max-width: 450px;
+}
+
+#flip .mian-content .center-part {
+    max-width: 300px;
+}
+
+#flip .mian-content .player-box {
+    padding-left: 130px;
+    padding-bottom: 20px;
+}
+
+#flip .mian-content .right-part .player-box {
+    padding-left: 0;
+    padding-right: 129px;
+}
+
+#flip .player-box .player {
+    width: 100%;
+}
+
+#flip .player-box .player img {
+    width: 60px;
+    margin-right: 8px;
+    border-radius: 7px;
+}
+
+#flip .player-box .progress-report {
+    width: 100%;
+}
+
+#flip .player-box .progress-report p {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+#flip .player-box .progress {
+    height: 15px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+}
+
+#flip .player-box .progress-bar {
+    background: linear-gradient(87deg, rgba(251, 233, 99, 1) 23%, rgba(255, 153, 0, 1) 100%);
+    border-radius: 25px;
+}
+
+
+#flip .vots {
+    padding: 3px 5px;
+    background: rgba(0, 0, 0, 0.61);
+    border: 1px solid rgba(221, 221, 221, 0.15);
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+#flip .vots .title {
+    font-size: 14px;
+    color: #fffcd8;
+    font-weight: 400;
+    line-height: 16.69px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-shadow: 0 0 14px #FFEA00;
+    padding-left: 10px;
+    position: relative;
+    top: -2px;
+
+}
+
+#flip .right-part .vots {
+    text-align: right;
+}
+
+#flip .right-part .vots .title {
+    padding-right: 10px;
+}
+
+#flip .vots span {
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+#flip .right-part .vots span {
+    padding-right: 20px;
+    padding-left: 0
+}
+
+#flip .right-part .player-box .player img {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+
+
+
+#flip .center-part {
+    padding: 0 20px;
+}
+
+#flip .center-part .vs-img {
+    max-width: 150px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+#flip .mian-content .box-item {
+    position: relative;
+}
+
+#flip .mian-content .box-item .box-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-top: 25px;
+    padding-right: 18px;
+    padding-left: 25px;
+}
+
+#flip .mian-content .box-item .box-content .title {
+    font-family: "Pixies";
+    text-align: center;
+    font-size: 30px;
+    color: #FF9900;
+    line-height: 32px;
+    padding-bottom: 10px;
+
+}
+
+#flip .mian-content .fixed-content {
+    overflow: auto;
+    max-height: 181px;
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+    .fixed-content {
+        scrollbar-width: thin;
+        scrollbar-color: #FF9900 #333;
+    }
+}
+
+#flip .mian-content .fixed-content p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    padding: 6px 0;
+    text-align: left;
+    color: #ddd;
+    line-height: 12px;
+}
+
+#flip .mian-content .box-item .box-content .avrage-results {
+    border: 1px solid #FF9900;
+    margin-bottom: 15px;
+}
+
+#flip .mian-content .box-item .box-content .avrage-results .herds {
+    width: 51%;
+    padding: 10px;
+    background: linear-gradient(270deg, #FF9900 0%, rgba(255, 153, 0, 0.18) 100%);
+    border: 2px solid #000;
+
+}
+
+#flip .mian-content .box-item .box-content .avrage-results .tails {
+    width: 49%;
+    padding: 10px;
+    background: linear-gradient(270deg, rgba(255, 153, 0, 0.5) 0%, rgba(255, 153, 0, 0.09) 100%);
+    border: 2px solid #000;
+
+}
+
+#flip .mian-content .box-item .box-content .avrage-results .herds h6 {
+    color: #fff;
+    text-align: center;
+}
+
+#flip .mian-content .box-item .box-content .avrage-results .tails h6 {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+#flip table {
+    width: 100%;
+    padding-right: 20px;
+}
+
+#flip table tr th {
+    font-family: "Pixies";
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#flip table tr td {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+#flip .mian-content .fixed-content.fixed-2 {
+    padding-right: 20px;
+    max-height: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+.select-modal .modal-content {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.select-modal .modal-end {
+    padding-top: 10px;
+}
+
+.select-modal .modal-body {
+    position: relative;
+    padding: 0;
+}
+
+.select-modal .modal-body .modal-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+.select-modal .modal-body .modal-item h4 {
+    font-family: "Pixies";
+    font-size: 30px;
+    line-height: 30px;
+    color: #FF9900;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.select-modal .modal-body .modal-item p {
+    font-size: 14px;
+    color: #fffcd8;
+    font-weight: 400;
+    line-height: 16.69px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-shadow: 0 0 14px #FFEA00;
+    padding-left: 10px;
+    text-wrap: nowrap;
+    padding: 15px;
+    padding-right: 5px;
+
+}
+
+.select-modal .modal-body .modal-item .modal-end .btn {
+    font-size: 14px;
+    color: #FF9900;
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    text-decoration: underline;
+
+}
+
+.modal-backdrop.show {
+    opacity: .6;
+}
+
+
+
+
+
+
+
+
+/* The container */
+.select-modal .modal-item .check-content {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 50px;
+
+}
+
+.select-modal .modal-item .check-content input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.select-modal .modal-item .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background: #FF990014;
+    border: 1px solid #FF9900;
+    border-radius: 7px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 21px;
+}
+
+.select-modal .modal-item .check-content:hover input ~ .checkmark {
+    background-color: #FF9900;
+    color: #fff;
+}
+
+.select-modal .modal-item .check-content input:checked ~ .checkmark {
+    background-color: #FF9900;
+    color: #fff;
+}
+
+.select-modal .modal-item .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#effects {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+}
+
+#effects .icon {
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+#effects .icon img {
+    max-width: 55px;
+}
+
+#effects .icon.emoji img {
+    max-width: 192px;
+}
+
+#effects .icon h6 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#effects .icon.emoji h6 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Custom scrollbar styles */
+/* Optional: If you want to ensure compatibility with WebKit browsers */
+.fixed-content::-webkit-scrollbar {
+    width: 5px;
+    /* Width of the entire scrollbar */
+}
+
+.fixed-content::-webkit-scrollbar-track {
+    background: #333;
+    /* Background of the scrollbar track */
+    box-shadow: inset 0 0 5px grey;
+    /* Optional: Add a shadow for better visibility */
+}
+
+.fixed-content::-webkit-scrollbar-thumb {
+    background-color: #FF9900;
+    /* Color of the scrollbar thumb */
+}
+
+.fixed-content::-webkit-scrollbar-corner {
+    background-color: #333;
+}

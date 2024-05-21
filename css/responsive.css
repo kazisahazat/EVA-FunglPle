@@ -1,0 +1,1056 @@
+/*====================== Extra Extra small devices 
+================================================================*/
+@media (max-width: 374.98px) {
+    #flip .header-container {
+        padding: 10px 0px 15px 10px;
+    }
+
+    #flip .header-container {
+        padding: 10px 0px 15px 0;
+    }
+
+    #flip {
+        height: 100%;
+        overflow-X: hidden;
+    }
+
+    body {
+        background-color: #05020C;
+
+    }
+
+    #flip {
+        position: relative;
+        background: none;
+    }
+
+    #flip .mian-content .player-box {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    #flip .animation {
+        padding: 0 50px;
+        padding-top: 0;
+    }
+
+    #flip .switch-container {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+
+    }
+
+    #flip .animation {
+        position: relative;
+    }
+
+    .switch-container img {
+        width: 44px;
+    }
+
+    #flip .mian-content {
+        margin-top: 50px;
+    }
+
+    #flip .first-main .item {
+        display: block;
+        text-align: center;
+    }
+
+    #flip .first-main .first-content {
+        padding: 30px 10px;
+        padding-bottom: 0;
+    }
+
+    #flip .first-main .first-content h3 {
+        font-size: 17px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    #flip .first-main .first-content p {
+        font-size: 16px;
+    }
+
+    #flip .first-main .first-content img {
+        width: 70px;
+    }
+
+    #flip .first-main .item-border {}
+
+    #flip .main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #flip .mobile-bg {
+        position: relative;
+    }
+
+    #flip .mobile-bg::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 78%, rgba(5, 2, 12, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    #flip .mian-content .fixed-content p {
+        font-size: 12px;
+        padding-bottom: 15px;
+        line-height: 8px;
+        text-overflow: ellipsis;
+        display: block;
+        text-align: ;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #flip .mian-content .box-item .box-content {
+        padding-left: 15px;
+    }
+
+    #flip .first-main .item h6 {
+        padding-bottom: 5px;
+    }
+
+    #flip .mian-content .fixed-content {
+        max-height: 157px;
+    }
+
+    #flip .mian-content .fixed-content.fixed-2 {
+        max-height: 217px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .herds h6 {
+        font-size: 11px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .tails h6 {
+        font-size: 11px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .herds {
+        padding: 8px;
+        border: 2px solid #000;
+        height: 30px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .tails {
+        padding: 8px;
+        border: 2px solid #000;
+        height: 30px;
+    }
+
+    #flip table tr td {
+        font-size: 10px;
+    }
+
+    #flip table tr th {
+        font-size: 10px;
+    }
+
+
+    #flip .vots span {
+        padding-left: 11px;
+    }
+
+    #effects .icon img {
+        max-width: 43px;
+    }
+
+    #effects .icon h6 {
+        font-size: 23px;
+    }
+
+
+    .select-modal .modal-body .modal-item {
+        padding: 10px;
+    }
+
+    .select-modal .modal-body .modal-item h4 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .select-modal .modal-item .checkmark {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .select-modal .modal-body .modal-item p {
+        font-size: 10px;
+        line-height: 16.69px;
+        padding-left: 10px;
+        padding: 15px 0px;
+        padding-left: 10px;
+    }
+
+    .select-modal .modal-item .checkmark.checkmark-2 {
+        padding: 10px 0;
+        line-height: 19px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .select-modal .modal-item .checkmark {
+        height: 42px;
+        padding: 10px;
+        line-height: 18px;
+    }
+
+
+
+
+
+}
+
+/*====================== Extra small devices 
+================================================================*/
+@media (min-width: 375px) and (max-width: 575.98px) {
+    #flip .header-container {
+        padding: 10px 0px 15px 10px;
+    }
+
+    #flip .header-container {
+        padding: 10px 0px 15px 0;
+    }
+
+    #flip {
+        height: 100%;
+        overflow-X: hidden;
+    }
+
+    body {
+        background-color: #05020C;
+
+    }
+
+    #flip {
+        position: relative;
+        background: none;
+    }
+
+    #flip .mian-content .player-box {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    #flip .animation {
+        padding: 0 20px;
+        padding-top: 0px;
+    }
+
+    #flip .switch-container {
+        position: static;
+    }
+
+    #flip .switch-container {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+
+    }
+
+    #flip .animation {
+        position: relative;
+    }
+
+    .switch-container img {
+        width: 44px;
+    }
+
+    #flip .mian-content {
+        margin-top: 50px;
+    }
+
+    #flip .first-main .item {
+        display: block;
+        text-align: center;
+    }
+
+    #flip .first-main .first-content {
+        padding: 30px 10px;
+        padding-bottom: 0;
+    }
+
+    #flip .first-main .first-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    #flip .first-main .first-content p {
+        font-size: 16px;
+    }
+
+    #flip .first-main .first-content img {
+        width: 100px;
+    }
+
+    #flip .first-main .item-border {}
+
+    #flip .main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 70px;
+    }
+
+    #flip .mobile-bg {
+        position: relative;
+    }
+
+    #flip .mobile-bg::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 78%, rgba(5, 2, 12, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    #flip .mian-content .fixed-content p {
+        font-size: 12px;
+        padding: 8px 0;
+        line-height: 8px;
+        text-overflow: ellipsis;
+        display: block;
+        text-align: ;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+
+    #flip .mian-content .left-part {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    #flip .mian-content .fixed-content.fixed-2 {
+        max-height: 268px;
+        padding-right: 10px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .herds h6 {
+        font-size: 11px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .tails h6 {
+        font-size: 11px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .herds {
+        padding: 8px;
+        border: 2px solid #000;
+        height: 30px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .tails {
+        padding: 8px;
+        border: 2px solid #000;
+        height: 30px;
+    }
+
+    #flip .mian-content .box-item .box-content {
+        padding-left: 15px;
+    }
+
+    #flip .mian-content .fixed-content {
+        overflow: auto;
+        max-height: 217px;
+    }
+
+
+
+
+
+    #effects .icon img {
+        max-width: 43px;
+    }
+
+    #effects .icon h6 {
+        font-size: 23px;
+    }
+
+    #effects .icon.emoji h6 {
+        font-size: 30px;
+        max-width: 250px;
+    }
+
+    #effects .icon.emoji h6 {
+        max-width: 350px;
+    }
+
+    #effects {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+
+
+
+
+
+
+    .select-modal .modal-body .modal-item {
+        padding: 10px;
+    }
+
+    .select-modal .modal-item .checkmark {
+        font-size: 18px;
+    }
+
+    .select-modal .modal-body .modal-item p {
+        font-size: 12px;
+        padding-left: 10px;
+        padding: 15px 0px;
+        padding-left: 10px;
+    }
+
+    .select-modal .modal-item .checkmark.checkmark-2 {
+        padding: 10px 0;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .select-modal .modal-item .checkmark {
+        padding: 10px;
+    }
+
+
+
+
+}
+
+/*=========================== Small devices 
+=======================================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #flip .header-container {
+        padding: 10px 0px 15px 10px;
+    }
+
+    .container,
+    .container-sm {
+        max-width: 380px;
+    }
+
+    #flip .header-container {
+        padding: 10px 0px 15px 0;
+    }
+
+    #flip {
+        height: 100%;
+        overflow-X: hidden;
+    }
+
+    body {
+        background-color: #05020C;
+
+    }
+
+    #flip {
+        position: relative;
+        background: none;
+    }
+
+    #flip .mian-content .player-box {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    #flip .animation {
+        padding: 0 20px;
+        padding-top: 0px;
+    }
+
+    #flip .switch-container {
+        position: static;
+    }
+
+    #flip .switch-container {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+
+    }
+
+    #flip .animation {
+        position: relative;
+    }
+
+    .switch-container img {
+        width: 44px;
+    }
+
+    #flip .mian-content {
+        margin-top: 50px;
+    }
+
+    #flip .first-main .item {
+        display: block;
+        text-align: center;
+    }
+
+    #flip .first-main .first-content {
+        padding: 30px 10px;
+        padding-bottom: 0;
+    }
+
+    #flip .first-main .first-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    #flip .first-main .first-content p {
+        font-size: 16px;
+    }
+
+    #flip .first-main .first-content img {
+        width: 100px;
+    }
+
+    #flip .first-main .item-border {}
+
+    #flip .main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 70px;
+    }
+
+    #flip .mobile-bg {
+        position: relative;
+    }
+
+    #flip .mobile-bg::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 78%, rgba(5, 2, 12, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    #flip .mian-content .fixed-content p {
+        font-size: 10px;
+        padding: 8px 0;
+        line-height: 8px;
+        text-overflow: ellipsis;
+        display: block;
+        text-align: ;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #flip .mian-content .fixed-content {
+        overflow: auto;
+        max-height: 190px;
+    }
+
+
+
+}
+
+/*============================ Medium devices 
+=========================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #flip {
+        height: 100vh;
+    }
+
+    #flip .first-main .first-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 7px 5px;
+        padding-bottom: 0;
+    }
+
+    #flip .first-main .first-content h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    #flip .mian-content .player-box {
+        padding-left: 0;
+    }
+
+    #flip .mian-content .center-part {
+        max-width: 170px;
+        padding: 0;
+    }
+
+    #flip .mian-content .center-part.pt-5 {
+        padding-top: 10px !important;
+    }
+
+    #flip .mian-content .center-part .pt-3 {
+        padding-top: 0px !important;
+    }
+
+    #flip .player-box .progress-report p {
+        font-size: 12px;
+    }
+
+    #flip .vots span {
+        font-size: 16px;
+        padding-left: 6px;
+    }
+
+    #flip .vots .title {
+        font-size: 12px;
+    }
+
+
+    #flip .mian-content .left-part {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    #flip .mian-content .right-part {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    #flip .center-part .vs-img {
+        padding: 35px;
+    }
+
+    #flip .right-part .vots span {
+        padding-right: 5px;
+    }
+
+    #flip .mian-content .box-item .box-content .title {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 5px;
+    }
+
+    #flip .mian-content .box-item .box-content {
+        padding: 9px;
+        padding-top: 13px;
+        padding-right: 10px;
+    }
+
+    #flip .mian-content .fixed-content {
+        max-height: 140px;
+    }
+
+    #flip .mian-content .fixed-content p {
+        font-size: 10px;
+        padding-bottom: 6px;
+        line-height: 10px;
+        text-overflow: ellipsis;
+        display: block;
+        text-align: ;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #flip table tr td {
+        font-size: 9px;
+        padding-bottom: 5px;
+    }
+
+    #flip table tr th {
+        font-size: 8px;
+        padding-bottom: 10px;
+    }
+
+    .switch-container {
+        text-align: right;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+
+    #flip .mian-content .right-part .player-box {
+        padding-right: 0;
+    }
+
+    #flip .mian-content .fixed-content {
+        max-height: 105px;
+    }
+
+    #flip .mian-content .fixed-content.fixed-2 {
+        max-height: 139px;
+        padding-right: 10px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .herds h6 {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .tails h6 {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .herds {
+        padding: 8px;
+        border: 2px solid #000;
+        height: 30px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .tails {
+        padding: 8px;
+        border: 2px solid #000;
+        height: 30px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results {
+        margin-bottom: 3px;
+    }
+    
+    
+    #flip .header .right-btn .btn p, #flip .main-btn .btn p {
+        top: 0px;
+    }
+    
+    
+    
+}
+
+/*============================ Large devices 
+=========================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #flip .first-main .first-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 7px 5px;
+        padding-bottom: 0;
+    }
+
+    #flip .first-main .first-content h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    #flip .mian-content .center-part {
+        max-width: 190px;
+    }
+
+    #flip .mian-content .fixed-content p {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #ddd;
+        line-height: 12px;
+    }
+
+    #flip table tr td {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    #flip .mian-content .fixed-content {
+        max-height: 136px;
+    }
+
+    #flip .mian-content .fixed-content.fixed-2 {
+        padding-right: 20px;
+        max-height: 189px;
+    }
+
+    #flip .main-btn .btn p.small-font1 {
+        top: 0px;
+        font-size: 14px;
+    }
+
+
+
+
+
+}
+
+/*============================ Extra Large 1 devices 
+=========================================================================*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #flip .first-main .first-content h3 {
+        font-size: 25px;
+    }
+
+    #flip .mian-content .fixed-content p {
+        font-size: 11px;
+    }
+
+    #flip table tr td {
+        font-size: 11px;
+    }
+
+    #flip .mian-content .fixed-content {
+        max-height: 148px;
+    }
+
+    #flip .mian-content .fixed-content.fixed-2 {
+        padding-right: 20px;
+        max-height: 211px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+/*============================ Extra Extra Large devices 
+=========================================================================*/
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+
+@media (min-width: 1700px) and (max-width: 1899.98px) {}
+
+
+@media (min-width: 1900px) and (max-width: 2199.98px) {
+    #flip {
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .col-lg-8 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+
+
+    #flip .first-main .item .left-item {
+        padding-left: 28px;
+    }
+
+    #flip .first-main .item .right-item {
+        padding-right: 28px;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 2200px) {
+    #flip {
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .container {
+        max-width: 1820px;
+    }
+
+    .container .col-xxl-8 {
+        width: 75%;
+    }
+
+    #flip .header .left-btn {
+        width: 100px;
+        height: 80px;
+        display: flex;
+        align-items: end;
+        margin-left: 60px;
+    }
+
+    #flip .header .right-btn,
+    #flip .main-btn {
+        width: 300px;
+        height: 103px;
+        display: flex;
+        align-items: end;
+        margin-right: 40px;
+    }
+
+    #flip .first-main .first-content h3 {
+        font-size: 41px;
+        line-height: 94.62px;
+        letter-spacing: 0.04em;
+        padding-bottom: 10px;
+    }
+
+    #flip .first-main .first-content {
+        padding: 30px 100px;
+    }
+
+    #flip .first-main .item h6 {
+        font-size: 21px;
+    }
+
+    #flip .first-main .item p {
+        font-size: 21px;
+    }
+
+
+    #flip .mian-content {
+        max-width: 1800px;
+    }
+
+    #flip .mian-content .left-part {
+        max-width: 650px;
+        width: 100%;
+    }
+
+    #flip .mian-content .right-part {
+        max-width: 650px;
+        width: 100%;
+    }
+
+    #flip .mian-content .box-item .box-content .title {
+        font-size: 42px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .herds h6 {
+        font-size: 25px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .herds {
+        padding: 15px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .tails h6 {
+        font-size: 25px;
+    }
+
+    #flip .mian-content .box-item .box-content .avrage-results .tails {
+        padding: 15px;
+    }
+
+    #flip .mian-content .box-item .box-content {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    #flip .mian-content .fixed-content p {
+        font-size: 18px;
+        padding: 6px 0;
+        line-height: 22px;
+    }
+
+    #flip .mian-content .fixed-content {
+        max-height: 267px;
+    }
+
+    #flip table tr th {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    #flip table tr td {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    #flip .mian-content .fixed-content.fixed-2 {
+        max-height: 350px;
+    }
+
+    #flip .mian-content .center-part {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .pt-5 {
+        padding-top: 6rem !important;
+    }
+
+    .switch-container img {
+        width: 100px;
+    }
+
+    #flip .header .right-btn .btn p,
+    #flip .main-btn .btn p {
+        font-size: 22px;
+    }
+
+    .select-modal .modal-dialog {
+        max-width: 700px;
+    }
+
+    .select-modal .modal-body .modal-item h4 {
+        font-size: 42px;
+        line-height: 64px;
+    }
+
+    .select-modal .modal-item .checkmark {
+        height: 65px;
+        border-radius: 7px;
+        padding: 10px;
+        line-height: 39px;
+        font-size: 25px;
+    }
+
+    .select-modal .modal-item .check-content {
+        margin-bottom: 25px;
+        font-size: 22px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 65px;
+    }
+
+    .select-modal .modal-item .checkmark {
+        height: 65px;
+    }
+
+    .select-modal .modal-body .modal-item p {
+        font-size: 20px;
+        line-height: 30.69px;
+    }
+
+    .select-modal .modal-body .modal-item .modal-end .btn {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
